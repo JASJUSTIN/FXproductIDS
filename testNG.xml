@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FX1 Reservation Application">
+
+    <listeners>
+        <listener class-name="ExtentReport.ExtentReporterNG"/>
+    </listeners>
+
+
+   <test name="FX Reservation UnitTests_Scenarios">
+        <classes>
+
+            <class name="TestCases.ReservationCompanyHavingCreditLimt"/>
+            <class name="TestCases.ReservationExistingGuestWithExistingCompany"></class>
+            <class name="TestCases.ReservationExistingGuestWithNewCompany"></class>
+
+
+        </classes>
+    </test>
+</suite>
