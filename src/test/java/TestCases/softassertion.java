@@ -73,6 +73,8 @@ public class softassertion {
         int taxintamount = 608;
         int total = 2658;
 
+
+        //
         int Calculation = Ratwintamount + mealintamount + addonintamount + taxintamount;
 
         Assert.assertEquals(total, Calculation);
